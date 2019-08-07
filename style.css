@@ -1,0 +1,117 @@
+html, body{
+	margin: 0;
+	padding: 0;
+}
+
+#one{
+	background-color: #d9d9d9;
+	width: 20vw;
+	height: 100vh;
+}
+
+#two{
+	background-color: #a6a6a6;
+	width: 20vw;
+	height: 100vh;
+}
+
+#three{
+	background-color: #737373;
+	width: 20vw;
+	height: 100vh;
+}
+
+#four{
+	background-color: #595959;
+	width: 20vw;
+	height: 100vh;
+}
+
+#five{
+	background-color: #262626;
+	width: 20vw;
+	height: 100vh;
+}
+
+#main{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+#add{
+	width: 400px;
+	height: 50px;
+	background-color: white;
+	border: none;
+	border-radius: 5px;
+	box-shadow: 4px 4px 15px 0px;
+
+}
+
+#add[type=text]{
+	font-family: 'Ubuntu', sans-serif;
+	padding-left: 20px;
+	font-size: 25px;
+	letter-spacing: 1px;
+}
+
+.input::placeholder{
+	font-family: 'Ubuntu', sans-serif;
+	font-size: 25px;
+	letter-spacing: 1px;
+	color: white;
+	opacity: 0.5 !important;
+}
+
+.add::placeholder{
+	font-family: 'Ubuntu', sans-serif;
+	font-size: 25px;
+	letter-spacing: 1px;
+	color: gray;
+	opacity: 0.5 !important;
+}
+
+#Div_Input{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	position: fixed;
+	z-index: 1;
+	top: 30%;
+	left: 50%;
+	margin-top: -25px;
+	margin-left: -200px;
+}
+
+.T{
+	font-family: 'Ubuntu', sans-serif;	
+	position: fixed;
+	z-index: 2;
+	display: none;
+}
+
+#oneT{
+	top: 70%;
+	left: 7%;
+}
+
+#twoT{
+	top: 70%;
+	left: 27%;
+}
+
+#threeT{
+	top: 70%;
+	left: 47%;
+}
+
+#fourT{
+	top: 70%;
+	left: 67%;
+}
+
+#fiveT{
+	top: 70%;
+	left: 87%;
+}
